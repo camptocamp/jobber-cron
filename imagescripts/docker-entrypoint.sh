@@ -45,7 +45,7 @@ fi
 cat ${configfile}
 
 if [ "$1" = 'jobberd' ]; then
-  /opt/jobber/sbin/jobberd
+  /opt/jobber/usr/local/bin/jobber
 fi
 
 exec "$@"
